@@ -17,5 +17,6 @@
     "react-day-picker",
     "tailwind-merge",
     "tailwindcss"
-  ]
+  ],
+  "liveServer.settings.root": ""
 }

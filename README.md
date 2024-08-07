@@ -1,3 +1,17 @@
+```
+bun drizzle-kit generate
+```
+
+ローカルのデータベースを更新
+```
+wrangler d1 migrations apply todo --local
+```
+
+本番環境のデータベースを更新
+```
+wrangler d1 migrations apply todo --remote
+```
+
 # Welcome to Remix!
 
 - 📖 [Remix docs](https://remix.run/docs)
