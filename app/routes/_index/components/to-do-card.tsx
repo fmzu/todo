@@ -1,5 +1,5 @@
-import { Card, CardContent } from "~/components/ui/card"
-import { Checkbox } from "~/components/ui/checkbox"
+import { Card, CardContent } from "~/app/components/ui/card"
+import { Checkbox } from "~/app/components/ui/checkbox"
 
 export function ToDoCard() {
   return (

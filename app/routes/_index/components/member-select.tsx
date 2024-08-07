@@ -6,7 +6,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "~/components/ui/select"
+} from "~/app/components/ui/select"
 
 export function MemberSelect() {
   return (

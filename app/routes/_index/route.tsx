@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node"
-import { Input } from "~/components/ui/input"
-import { Separator } from "~/components/ui/separator"
+import { Input } from "~/app/components/ui/input"
+import { Separator } from "~/app/components/ui/separator"
 import { ToDoCard } from "./components/to-do-card"
 import { DatePicker } from "./components/date-picker"
 import { AddToDoButton } from "./components/add-to-do-button"

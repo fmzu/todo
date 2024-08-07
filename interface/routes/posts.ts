@@ -2,7 +2,7 @@ import { Hono } from "hono"
 import { verifyAuth } from "@hono/auth-js"
 import { zValidator } from "@hono/zod-validator"
 import { object, z } from "zod"
-import { postsTable, usersTable } from "~/schema"
+import { postsTable, usersTable } from "~/app/schema"
 import { drizzle } from "drizzle-orm/d1"
 import { eq } from "drizzle-orm"
 
