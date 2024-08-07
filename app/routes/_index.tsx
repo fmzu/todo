@@ -3,7 +3,8 @@ import { Input } from "~/components/ui/input"
 import { Separator } from "~/components/ui/separator"
 import { ToDoCard } from "./components/to-do-card"
 import { DatePicker } from "./components/date-picker"
-import { NewToDoButton } from "./components/new-to-do-button"
+import { AddToDoButton } from "./components/add-to-do-button"
+import { MemberSelect } from "./components/member-select"
 
 export const meta: MetaFunction = () => {
   return [
@@ -18,10 +19,13 @@ export default function Index() {
       <div className="flex justify-end">
         <DatePicker />
       </div>
-      <Input placeholder="Enter your name" className="h-16" />
+      <div className="flex space-x-2 items-end">
+        <Input placeholder="Enter your name" className="h-16" />
+        <MemberSelect />
+      </div>
       <Separator />
       <div className="flex justify-end">
-        <NewToDoButton />
+        <AddToDoButton />
       </div>
       <ToDoCard />
     </div>
